@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="9"
+    android:columnCount="8">
+
+    <ImageButton
+        android:src="@drawable/up_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/forward_arrow"
+        android:onClick="click"
+        android:layout_column="3"
+        android:layout_row="1"
+        android:layout_rowSpan="2"/>
+
+    <ImageButton
+        android:src="@drawable/down_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/back_arrow"
+        android:onClick="click"
+        android:layout_column="3"
+        android:layout_row="5"
+        android:layout_rowSpan="2"/>
+
+    <ImageButton
+        android:src="@drawable/left_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/left_arrow"
+        android:onClick="click"
+        android:layout_column="2"
+        android:layout_row="3"
+        android:layout_rowSpan="2"/>
+
+    <ImageButton
+        android:src="@drawable/right_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/right_arrow"
+        android:onClick="click"
+        android:layout_column="4"
+        android:layout_row="3"
+        android:layout_rowSpan="2"/>
+
+    <ImageButton
+        android:src="@drawable/up_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/up_arrow"
+        android:onClick="click"
+        android:layout_column="7"
+        android:layout_row="1"
+        android:layout_rowSpan="2"/>
+
+    <ImageButton
+        android:src="@drawable/down_arrow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/down_arrow"
+        android:onClick="click"
+        android:layout_column="7"
+        android:layout_row="3"
+        android:layout_rowSpan="2"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Bluetooth Menu"
+        android:id="@+id/button"
+        android:layout_column="7"
+        android:layout_row="6"
+        android:onClick="sendMessage" />
+
+    </GridLayout>
