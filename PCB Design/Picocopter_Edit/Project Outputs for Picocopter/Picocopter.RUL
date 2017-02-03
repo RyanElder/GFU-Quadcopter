@@ -1,0 +1,7 @@
+DRC Rules Export File for PCB: Z:\Picocopter\Picocopter.PcbDoc
+RuleKind=Width|RuleName=Width~Sunstone Circuits|Scope=Board|Minimum=6.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion~Sunstone Circuits|Scope=Board|Minimum=3.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit~Sunstone Circuits|Scope=Board|Allowed=1
+RuleKind=MinimumAnnularRing|RuleName=MinimumAnnularRing~Sunstone Circuits|Scope=Board|Minimum=5.00
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=10.00
+RuleKind=Clearance|RuleName=Clearance Same Net|Scope=Board|Minimum=0.00

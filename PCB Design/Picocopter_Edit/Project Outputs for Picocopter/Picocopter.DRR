@@ -1,0 +1,19 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Picocopter.PcbDoc   12/7/2016  3:26:13 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Picocopter.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      8mil (0.2mm)                                              Round             24        PTH        1.48inch (37.56mm)
+T2      15mil (0.381mm)                                           Round             1         PTH        0.00inch (0.00mm)
+T3      16mil (0.406mm)                                           Round             32        PTH        10.31inch (261.89mm)
+T4      25mil (0.635mm)                                           Round             10        PTH        7.36inch (186.92mm)
+T5      28mil (0.7mm)                                             Round             2         PTH        0.10inch (2.54mm)
+T6      39mil (1mm)                                               Round             10        PTH        1.10inch (27.94mm)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              79
+
+Total Processing Time (hh:mm:ss) : 00:00:00
